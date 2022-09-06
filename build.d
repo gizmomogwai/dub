@@ -40,7 +40,7 @@ immutable DubBinPath = RootPath.buildPath("bin", "dub");
 // Flags for DMD
 immutable OutputFlag = "-of" ~ DubBinPath;
 immutable IncludeFlag = "-I" ~ RootPath.buildPath("source");
-immutable DefaultDFLAGS = [ "-g", "-O", "-w" ];
+immutable DefaultDFLAGS = [ "-g", "-w" ];
 
 
 /// Entry point
